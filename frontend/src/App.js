@@ -1,6 +1,13 @@
 import React from 'react'
 import { BrowserRouter as Router, Link } from "react-router-dom"
 import styled from 'styled-components';
+import Counter from 'counter/counter'
+import user from './user/Login'
+import user from './user/SignUp'
+import User from './user/UserDetail'
+import user from './user/UserEdit'
+import user from './user/UserList'
+
 
 const App = () => {
   return (<Container>
@@ -13,6 +20,11 @@ const App = () => {
       <Link to="/">Go to Google</Link><br/>
     </Router>
   </nav>
+  <Login/>
+  <SignUp/>
+  <UserDetail/>
+  <UserEdit/>
+  <UserList/>
   <h1>첫번째 크기 헤드라인</h1>
   <h2>두번째 크기 헤드라인</h2>
   <h3>세번째 크기 헤드라인</h3>
@@ -25,6 +37,7 @@ const App = () => {
  </Element>
   </Container>)
   
+
 }
 const Container = styled.div`
     width: 100%;
