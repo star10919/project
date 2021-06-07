@@ -1,7 +1,7 @@
 import React from 'react'
-import './SignUp.css'
+import './Signup.css'
 
-const SignUp = () => {
+const Signup = () => {
     return (<>
     <form action="/action_page.php" style={{border:"1px solid #ccc"}}>
   <div className="container">
@@ -33,4 +33,4 @@ const SignUp = () => {
     </>)
 }
 
-export default SignUp
+export default Signup

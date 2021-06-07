@@ -7,7 +7,7 @@ const Login = () => {
     
 <form action="/action_page.php" method="post">
   <div className="imgcontainer">
-    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar"/>
+    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" className="avatar"/>
  </div>
 
   <div class="container">
@@ -23,9 +23,9 @@ const Login = () => {
     </label>
   </div>
 
-  <div class="container" style={{backgroundColor:"#f1f1f1"}}>
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+  <div className="container" style={{backgroundColor:"#f1f1f1"}}>
+    <button type="button" className="cancelbtn">Cancel</button>
+    <span className="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
     </>)

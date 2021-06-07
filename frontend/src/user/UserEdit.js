@@ -4,4 +4,4 @@ const UserEdit = () => {
     return (<></>)
 }
 
-export UserEdit
+export default UserEdit
