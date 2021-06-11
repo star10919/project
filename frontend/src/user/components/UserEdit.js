@@ -1,7 +1,8 @@
 import React from 'react'
 
 const UserEdit = () => {
-    return (<></>)
+    return (<>
+    </>)
 }
 
 export default UserEdit
